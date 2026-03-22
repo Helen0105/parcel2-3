@@ -1,0 +1,26 @@
+{
+  "name": "parcel2-3",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://helen0105.github.io/parcel2-3/",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "dev": "parcel src/index.html --public-url /parcel2-3/",
+    "build": "parcel build src/index.html --public-url /parcel2-3/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Helen0105/parcel2-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  }
+}
